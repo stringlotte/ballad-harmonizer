@@ -4,12 +4,12 @@ Language: Python
 
 Environment: Jupiter notebook
 
-Generate chord accompaniments for traditional Chinese ballads based on [music21](https://web.mit.edu/music21/doc/).
+Generate chord accompaniments for traditional Chinese ballads based on the Hidden Markov Model.
 
 ## Install
 
 
-Install Music21: for MacOS users, run the following in cmd
+Install [Music21](https://web.mit.edu/music21/doc/): for MacOS users, run the following in cmd
 ```
 conda install -c conda-forge music21 
 ```
