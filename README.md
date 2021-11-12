@@ -9,9 +9,9 @@ Generate chord accompaniments for traditional Chinese ballads based on [music21]
 ## Install
 
 
-Install Music21
+Install Music21: for MacOS users, run the following in cmd
 ```
-conda install -c conda-forge music21 (for MacOS users)
+conda install -c conda-forge music21 
 ```
 
 Install [Musescore](https://musescore.org/en/download ) to show the score
