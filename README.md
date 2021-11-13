@@ -6,7 +6,7 @@ Environment: Jupiter notebook
 
 Generate chord accompaniments for traditional Chinese ballads based on the Hidden Markov Model.
 
-## Install
+## Installation
 
 
 Install [Music21](https://web.mit.edu/music21/doc/): for MacOS users, run the following in cmd
