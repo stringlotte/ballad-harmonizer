@@ -26,10 +26,11 @@ chinese_folk = corpus.search('china','locale')
 [(i,e.metadata.title) for i,e in enumerate(chinese_folk)] 
 ```
 
-Run the following to harmonize 
+Run demo.py or the following to harmonize 
 ```
 h = demo_train()
 demo_harmonize(h)
 ```
+
 
 The demo training set is Bach's chorales. These as well as Chinese ballads come from the corpus of music21. 
