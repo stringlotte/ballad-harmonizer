@@ -6,31 +6,24 @@ Environment: Jupiter notebook
 
 Generate chord accompaniments for traditional Chinese ballads based on the Hidden Markov Model.
 
+The demo training set is Bach's chorales. These as well as Chinese ballads come from the corpus of music21. 
+
+
 ## Installation
 
-
-Install [Music21](https://web.mit.edu/music21/doc/): for MacOS users, run the following in cmd
+### Install Music21
+Install [Music21](https://web.mit.edu/music21/doc/): for MacOS users, run the following command
 ```
 conda install -c conda-forge music21 
 ```
-
+### Install Musescore
 Install [Musescore](https://musescore.org/en/download ) to show the score
 
-## Usage
+### Install harmonizer.py,demo_harmonizer.py
 
-Run the following to see the list of all avaliable Chinese Ballads:
+Download  harmonizer.py,demo_harmonizer.py,setup.py
+
+Then, run the following command
 ```
-from music21 import *
-
-chinese_folk = corpus.search('china','locale')
-[(i,e.metadata.title) for i,e in enumerate(chinese_folk)] 
+python setup.py install
 ```
-
-Run demo.py or the following to harmonize 
-```
-h = demo_train()
-demo_harmonize(h)
-```
-
-
-The demo training set is Bach's chorales. These as well as Chinese ballads come from the corpus of music21. 
