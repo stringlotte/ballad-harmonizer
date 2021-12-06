@@ -42,7 +42,7 @@ def add_chord(s,part_idx=0,chords=None):
                     logging.debug("%f %f %d",m.duration.quarterLength,time_unit,steps)
                     for _ in range(steps):
                         cidx=(cidx+1)%len(chords) # just in case that length of melody>length of chords
-                        c=copy.copy(chords[cidx])
+                        c=copy.deepcopy(chords[cidx])
                         c.duration.quarterLength=time_unit
                         m.append(c)
                 else:
